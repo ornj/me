@@ -1,3 +1,10 @@
 ![hello](https://raw.githubusercontent.com/ornj/me/master/static/img/logo.png)
 
-This repository is intended to contain information about myself but not like, in a narcissistic way or anything.
+I'm an east coast transplant building Internet things for Jawbone in San
+Francisco.
+
+I work primarily in Javascript and Python. I arrived at this by way of PHP and
+in another life time, Actionscript.
+
+I like building systems that are simple for users and pleasant for developers.
+I always try to leave things a little better than the way I found them.
