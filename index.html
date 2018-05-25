@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stephen Hurwitz</title>
     <style>
+        @-webkit-keyframes bgWoah {
+            0% { background-position: 20% 0% }
+            50% { background-position: 100% 0% }
+            100% { background-position: 20% 0% }
+        }
+
+        @-moz-keyframes bgWoah {
+            0% { background-position: 20% 0% }
+            50% { background-position: 100% 0% }
+            100% { background-position: 20% 0% }
+        }
+
+        @keyframes bgWoah { 
+            0% { background-position: 20% 0% }
+            50% { background-position: 100% 0% }
+            100% { background-position: 20% 0% }
+        }
+
         body {
-            background: rgb(198,243,255);
-            background: linear-gradient(90deg, rgba(198,243,255,1) 0%, rgba(198,255,203,1) 100%);
+            background: linear-gradient(325deg, rgba(198,243,255,1) 0%, rgba(198,255,203,1) 100%);
+            background-size: 150% 150%;
+
+            -webkit-animation: bgWoah 20s ease infinite;
+            -moz-animation: bgWoah 20s ease infinite;
+            animation: bgWoah 20s ease infinite;
         }
 
         #main {
